@@ -1,0 +1,10 @@
+dist/
+public/
+.storybook/
+**/coverage/
+**/node_modules/
+**/*.min.js
+*.config.js
+.eslintrc.js
+jest.setup.ts
+vite.config.ts
