@@ -7,7 +7,11 @@ module.exports = {
   content: ['./src/index.html', './src/**/*.{html,js,jsx,ts,tsx}'],
   mode: 'jit',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+      },
+    },
     keyframes: {},
     animation: {},
   },
@@ -16,4 +20,5 @@ module.exports = {
   },
   plugins: [],
   purge: false,
+  important: true,
 };
