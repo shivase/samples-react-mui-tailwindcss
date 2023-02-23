@@ -1,7 +1,7 @@
 export const ContainerSpacing = () => {
   return (
-    //<!-- Container -->
-    <div>
+    <div className="container mx-auto">
+      {/* Container */}
       <article>
         <h3>Article One</h3>
         <p>
@@ -10,29 +10,57 @@ export const ContainerSpacing = () => {
           nobis odio a sunt, maiores quasi. Modi amet quos dolores!
         </p>
       </article>
-      {/*
-      <!-- Margin -->
+      {/* Margin */}
+      <div className="m-2 bg-slate-100">Hello World</div>
+      <div className="ml-4 bg-slate-100">Hello World</div>
+      <div className="mr-4 bg-slate-100">Hello World</div>
+      <div className="mt-4 bg-slate-100">Hello World</div>
+      <div className="mb-4 bg-slate-100">Hello World</div>
+      <div className="mt-[20px] bg-slate-100">Hello World</div>
 
-      <!-- Padding -->
+      {/* Padding */}
+      <div className="bg-slate-100 p-2">Hello World</div>
+      <div className="bg-slate-100 pl-4">Hello World</div>
+      <div className="bg-slate-100 pr-4">Hello World</div>
+      <div className="bg-slate-100 pt-4">Hello World</div>
+      <div className="bg-slate-100 pb-4">Hello World</div>
+      <div className="bg-slate-100 pt-[20px]">Hello World</div>
 
-      <!-- Space Between X -->
+      {/* Space Between X */}
+      <div className="mt-24 flex space-x-4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+      </div>
 
-      <!-- Space Between Y -->
-      */}
+      {/* Space Between Y */}
+      <div className="mt-24 flex flex-col space-y-4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+      </div>
     </div>
   );
 };
 
-//<!-- Breakpoinsts for Container
+//{/* Breakpoinsts for Container
 //    container	None	width: 100%;
 //    sm (640px)	    max-width: 640px;
 //    md (768px)	    max-width: 768px;
 //    lg (1024px)	    max-width: 1024px;
 //    xl (1280px)	    max-width: 1280px;
 //    2xl (1536px)	  max-width: 1536px;
-//-->
+//*/}
 //
-//<!-- Margin Values
+//{/* Margin Values
 //      m-0	margin: 0px;
 //      mx-0	margin-left: 0px;
 //      margin-right: 0px;
@@ -357,9 +385,9 @@ export const ContainerSpacing = () => {
 //      mr-auto	margin-right: auto;
 //      mb-auto	margin-bottom: auto;
 //      ml-auto	margin-left: auto;
-//    -->
+//    */}
 //
-//<!-- Padding Values
+//{/* Padding Values
 //      p-0	padding: 0px;
 //      px-0	padding-left: 0px;
 //      padding-right: 0px;
@@ -675,9 +703,9 @@ export const ContainerSpacing = () => {
 //      pr-96	padding-right: 24rem; /* 384px */
 //      pb-96	padding-bottom: 24rem; /* 384px */
 //      pl-96	padding-left: 24rem; /* 384px */
-//    -->
+//    */}
 //
-//<!-- Space Between X/Y
+//{/* Space Between X/Y
 //      space-x-0 > * + *	margin-left: 0px;
 //      space-y-0 > * + *	margin-top: 0px;
 //      space-x-0.5 > * + *	margin-left: 0.125rem; /* 2px */
@@ -750,4 +778,4 @@ export const ContainerSpacing = () => {
 //      space-y-px > * + *	margin-top: 1px;
 //      space-y-reverse > * + *	--tw-space-y-reverse: 1;
 //      space-x-reverse > * + *	--tw-space-x-reverse: 1;
-//    -->
+//    */}

@@ -1,33 +1,58 @@
 export const Sizing = () => {
   return (
-    <></>
-    /*
-    <!-- Width -->
+    <>
+      {/* Width */}
+      <div className="w-4 bg-black text-white">Hello</div>
+      <div className="w-48 bg-black text-white">Hello</div>
+      <div className="w-96 bg-black text-white">Hello</div>
 
-    <!-- Percentages -->
+      {/* Percentages */}
+      <div className="w-1/4 bg-green-700 text-white">Hello</div>
+      <div className="w-1/3 bg-green-700 text-white">Hello</div>
+      <div className="w-1/2 bg-green-700 text-white">Hello</div>
 
-    <!-- Width of the viewport -->
+      {/* Width of the viewport */}
+      <div className="w-screen bg-blue-500 text-white">Hello</div>
 
-    <!-- 100% of container -->
+      {/* 100% of container */}
+      <div className="w-full bg-blue-300 text-white">Hello</div>
 
-    <!-- min/max content -->
+      {/* min/max content */}
 
-    <!-- Arbitrary width -->
+      {/* Arbitrary width */}
+      <div className="w-[300px] bg-blue-700 text-white">Hello</div>
 
-    <!-- Max Width -->
+      {/* Max Width */}
+      <div className="mx-auto max-w-lg bg-gray-300">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum
+      </div>
 
-    <!-- Height (Most of the same options as widths) -->
+      {/* Height (Most of the same options as widths) */}
+      <div className="flex items-end">
+        <div className="h-24 w-20 bg-orange-500">Hello</div>
+        <div className="h-32 w-20 bg-orange-500">Hello</div>
+        <div className="h-40 w-20 bg-orange-500">Hello</div>
+        <div className="h-48 w-20 bg-orange-500">Hello</div>
+        <div className="h-96 w-20 bg-orange-500">Hello</div>
+      </div>
 
-    <!-- Min Height -->
+      {/* Min Height */}
 
-    <!-- Max Height -->
+      {/* Max Height */}
 
-    <!-- Full screen height -->
-  */
+      {/* Full screen height */}
+      <div className="h-screen bg-blue-300">Hello</div>
+    </>
   );
 };
 
-//<!--
+//{/*
 //  Width Sizes
 //    w-0	    width: 0px;
 //    w-px	  width: 1px;
@@ -95,18 +120,18 @@ export const Sizing = () => {
 //    w-screen  width: 100vw;
 //    w-min	  width: min-content;
 //    w-max	  width: max-content;
-//    w-fit	  width: fit-content; -->
+//    w-fit	  width: fit-content; */}
 //
-//<!--
+//{/*
 //    Min Width Sizes
 //    min-w-0	      min-width: 0px;
 //    min-w-full	  min-width: 100%;
 //    min-w-min	    min-width: min-content;
 //    min-w-max	    min-width: max-content;
 //    min-w-fit	    min-width: fit-content;
-//    -->
+//    */}
 //
-//<!--
+//{/*
 //    Max Width Sizes
 //    max-w-0	      max-width: 0rem; /* 0px */
 //    max-w-none	  max-width: none;
@@ -131,9 +156,9 @@ export const Sizing = () => {
 //    max-w-screen-lg	max-width: 1024px;
 //    max-w-screen-xl	max-width: 1280px;
 //    max-w-screen-2xl	max-width: 1536px;
-//  -->
+//  */}
 //
-//<!--
+//{/*
 //    Height Sizes
 //    h-0	        height: 0px;
 //    h-px	      height: 1px;
@@ -191,9 +216,9 @@ export const Sizing = () => {
 //    h-min	      height: min-content;
 //    h-max	      height: max-content;
 //    h-fit	      height: fit-content;
-//   -->
+//   */}
 //
-//<!--
+//{/*
 //  Min Height Sizes
 //    min-h-0	        min-height: 0px;
 //    min-h-full	    min-height: 100%;
@@ -201,9 +226,9 @@ export const Sizing = () => {
 //    min-h-min	      min-height: min-content;
 //    min-h-max	      min-height: max-content;
 //    min-h-fit	      min-height: fit-content;
-// -->
+// */}
 //
-//<!--
+//{/*
 //   Max Height Sizes
 //    max-h-0         max-height: 0px;
 //    max-h-px	      max-height: 1px;
@@ -245,5 +270,5 @@ export const Sizing = () => {
 //    max-h-min	      max-height: min-content;
 //    max-h-max	      max-height: max-content;
 //    max-h-fit	      max-height: fit-content;
-//  -->
+//  */}
 //

@@ -1,30 +1,60 @@
 export const Typography = () => {
   return (
-    <></>
-    /*
-    <!-- Font Family -->
+    <>
+      {/* Font Family */}
+      <div className="font-sans">Tailwind is awesome</div>
+      <div className="font-serif">Tailwind is awesome</div>
+      <div className="font-mono">Tailwind is awesome</div>
 
-    <!-- Font Size -->
+      {/* Font Size */}
+      <div className="text-xs">Tailwind is awesome</div>
+      <div className="text-sm">Tailwind is awesome</div>
+      <div className="text-base">Tailwind is awesome</div>
+      <div className="text-lg">Tailwind is awesome</div>
+      <div className="text-xl">Tailwind is awesome</div>
+      <div className="text-2xl">Tailwind is awesome</div>
+      <div className="text-3xl">Tailwind is awesome</div>
 
-    <!-- Font Weight -->
+      {/* Font Weight */}
+      <div className="font-light">Tailwind is awesome</div>
+      <div className="font-normal">Tailwind is awesome</div>
+      <div className="font-medium">Tailwind is awesome</div>
+      <div className="font-semibold">Tailwind is awesome</div>
+      <div className="font-bold">Tailwind is awesome</div>
 
-    <!-- Letter Spacing -->
+      {/* Letter Spacing */}
+      <div className="tracking-tight">Tailwind is awesome</div>
+      <div className="tracking-normal">Tailwind is awesome</div>
+      <div className="tracking-wide">Tailwind is awesome</div>
 
-    <!-- Text Alignment -->
+      {/* Text Alignment */}
+      <div className="text-left">Tailwind is awesome</div>
+      <div className="text-center">Tailwind is awesome</div>
+      <div className="text-right">Tailwind is awesome</div>
 
-    <!-- Text Decoration -->
+      {/* Text Decoration */}
+      <div className="underline decoration-blue-400 decoration-4">Tailwind is awesome</div>
 
-    <!-- Decoration Style -->
+      {/* Decoration Style */}
+      <div className="underline decoration-double">Tailwind is awesome</div>
+      <div className="underline decoration-dotted">Tailwind is awesome</div>
+      <div className="underline decoration-wavy">Tailwind is awesome</div>
 
-    <!-- Decoration Offset -->
+      {/* Decoration Offset */}
+      <div className="underline decoration-blue-400 decoration-4 underline-offset-8">
+        Tailwind is awesome
+      </div>
 
-    <!-- Text Transform -->
-
-  */
+      {/* Text Transform */}
+      <p className="normal-case">Tailwind is awesome</p>
+      <p className="uppercase">Tailwind is awesome</p>
+      <p className="lowercase">Tailwind is awesome</p>
+      <p className="capitalize">Tailwind is awesome</p>
+    </>
   );
 };
 
-//<!-- Font Family
+//{/* Font Family
 //  font-sans
 //  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 //
@@ -34,9 +64,9 @@ export const Typography = () => {
 //  font-mono
 //  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 //
-//-->
+//*/}
 //
-//<!--
+//{/*
 //  Font Size
 //  text-xs	    font-size: 0.75rem; /* 12px */
 //  text-sm	    font-size: 0.875rem; /* 14px */
@@ -51,9 +81,9 @@ export const Typography = () => {
 //  text-7xl	  font-size: 4.5rem; /* 72px */
 //  text-8xl	  font-size: 6rem; /* 96px */
 //  text-9xl	  font-size: 8rem; /* 128px */
-//-->
+//*/}
 //
-//<!-- Font Weight
+//{/* Font Weight
 //  font-thin	      font-weight: 100;
 //  font-extralight	font-weight: 200;
 //  font-light	    font-weight: 300;
@@ -63,25 +93,25 @@ export const Typography = () => {
 //  font-bold	      font-weight: 700;
 //  font-extrabold	font-weight: 800;
 //  font-black	    font-weight: 900;
-//-->
+//*/}
 //
-//<!-- Letter Spacing
+//{/* Letter Spacing
 //  tracking-tighter	letter-spacing: -0.05em;
 //  tracking-tight	  letter-spacing: -0.025em;
 //  tracking-normal	  letter-spacing: 0em;
 //  tracking-wide	    letter-spacing: 0.025em;
 //  tracking-wider	  letter-spacing: 0.05em;
 //  tracking-widest	  letter-spacing: 0.1em;
-//-->
+//*/}
 //
-//<!-- Text Alignment
+//{/* Text Alignment
 //  text-left	    text-align: left;
 //  text-center	  text-align: center;
 //  text-right	  text-align: right;
 //  text-justify	text-align: justify;
-// -->
+// */}
 //
-//<!-- Text Decoration
+//{/* Text Decoration
 //  decoration-auto	      text-decoration-thickness: auto;
 //  decoration-from-font	text-decoration-thickness: from-font;
 //  decoration-0	        text-decoration-thickness: 0px;
@@ -89,12 +119,12 @@ export const Typography = () => {
 //  decoration-2	        text-decoration-thickness: 2px;
 //  decoration-4	        text-decoration-thickness: 4px;
 //  decoration-8	        text-decoration-thickness: 8px;
-//-->
+//*/}
 //
-//<!-- Text Transform
+//{/* Text Transform
 //  uppercase	  text-transform: uppercase;
 //  lowercase	  text-transform: lowercase;
 //  capitalize	text-transform: capitalize;
 //  normal-case	text-transform: none;
-//-->
+//*/}
 //
