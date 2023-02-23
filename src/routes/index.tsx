@@ -11,11 +11,17 @@ const { CreativeAgencyApp } = lazyImport(
   'CreativeAgencyApp',
 );
 
+const { TailwindcssSandbox } = lazyImport(
+  () => import('@/features/tailwindcss-sandbox'),
+  'TailwindcssSandbox',
+);
+
 export const AppRouter = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />} errorElement={<ErrorPage />}>
       <Route index element={<TopPageApp />}></Route>
-      <Route path="creative" index element={<CreativeAgencyApp />}></Route>
+      <Route path="creative" element={<CreativeAgencyApp />}></Route>
+      <Route path="tailwindcss-sandbox/*" element={<TailwindcssSandbox />}></Route>
       <Route path="*" element={<NotFound />}></Route>
     </Route>,
   ),

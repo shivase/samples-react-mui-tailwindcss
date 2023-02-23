@@ -3,10 +3,23 @@ import { Link } from 'react-router-dom';
 
 export const TopPageApp = () => {
   return (
-    <Box className="mt-[100px] flex justify-center">
-      <Button variant="contained" color="primary" component={Link} to="/creative">
-        CreativeAgency
-      </Button>
+    <Box className="mt-[50px] flex flex-col items-center">
+      <Box className="mb-[50px]">
+        <Box className="mb-[24px]">Material-UI and React Learn by building projects</Box>
+        <Box className="flex flex-col gap-y-3">
+          <Button variant="contained" color="primary" component={Link} to="/creative">
+            Creative Agency
+          </Button>
+        </Box>
+      </Box>
+      <Box>
+        <Box className="mb-2">Tailwind CSS From Scratch Learn By Building Projects</Box>
+        <Box className="flex flex-col gap-y-3">
+          <Button variant="contained" color="primary" component={Link} to="/tailwindcss-sandbox">
+            TailwindCSS Sandbox
+          </Button>
+        </Box>
+      </Box>
     </Box>
   );
 };

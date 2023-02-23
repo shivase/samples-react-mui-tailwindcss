@@ -1,4 +1,4 @@
-import { Stack, Typography, Box, Button, Link, Grid } from '@mui/material';
+import { Typography, Box, Link, Grid } from '@mui/material';
 
 import dashboard_photo from '../../assets/img/dashborad-photo.svg';
 import illustration_page_photo from '../../assets/img/ilustraton-page-photo.svg';
