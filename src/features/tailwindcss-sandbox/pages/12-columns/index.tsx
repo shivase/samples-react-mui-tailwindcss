@@ -1,15 +1,38 @@
+import img1 from '../../assets/img/img1.jpg';
+import img2 from '../../assets/img/img2.jpg';
+import img3 from '../../assets/img/img3.jpg';
+import img4 from '../../assets/img/img4.jpg';
+
 export const Columns = () => {
   return (
-    <></>
-    /*
-    <!-- Columns -->
+    <>
+      {/* Columns */}
+      <div className="columns-4 gap-2">
+        <img className="w-full" src={img1} alt="img1" />
+        <img className="w-full" src={img2} alt="img2" />
+        <img className="w-full" src={img3} alt="img3" />
+        <img className="w-full" src={img4} alt="img4" />
+      </div>
 
-    <!-- Aspect Ratio -->
-     */
+      <div className="columns-xs">
+        <img className="w-full" src={img1} alt="img1" />
+        <img className="w-full" src={img2} alt="img2" />
+        <img className="w-full" src={img3} alt="img3" />
+        <img className="w-full" src={img4} alt="img4" />
+      </div>
+
+      {/* Aspect Ratio */}
+      <div className="columns-4">
+        <img className="aspect-video w-full" src={img1} alt="img1" />
+        <img className="aspect-square w-full" src={img2} alt="img2" />
+        <img className="w-full " src={img3} alt="img3" />
+        <img className="w-full" src={img4} alt="img4" />
+      </div>
+    </>
   );
 };
 
-//<!-- Column Classes
+//{/* Column Classes
 //columns-1	      columns: 1;
 //columns-2	      columns: 2;
 //columns-3	      columns: 3;
@@ -38,7 +61,7 @@ export const Columns = () => {
 //columns-7xl	    columns: 80rem; /* 1280px */
 //-->
 //
-//<!-- Break After
+//{/* Break After
 //  break-after-auto	break-after: auto;
 //  break-after-avoid	break-after: avoid;
 //  break-after-all	break-after: all;
@@ -49,7 +72,7 @@ export const Columns = () => {
 //  break-after-column	break-after: column;
 //-->
 //
-//<!-- Break Before
+//{/* Break Before
 //  reak-before-auto	break-before: auto;
 //  break-before-avoid	break-before: avoid;
 //  break-before-all	break-before: all;

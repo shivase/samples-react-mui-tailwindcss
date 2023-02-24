@@ -1,26 +1,36 @@
+import img1 from '../../assets/img/img1.jpg';
+
 export const TransformTransition = () => {
   return (
     <>
-      {/*
-      <!-- No Transition -->
-    */}
+      {/* No Transition */}
 
       <button className="m-24 rounded bg-blue-500 px-8 py-2 text-white hover:bg-blue-700">
         Click me
       </button>
 
-      {/*
-    <!-- Transition -->
+      {/* Transition */}
+      <button className="m-24 rounded bg-blue-500 px-8 py-2 text-white transition-all duration-1000 hover:bg-blue-700  hover:opacity-20">
+        Click me
+      </button>
 
-    <!-- Transition & Transform -->
+      {/* Transition & Transform */}
+      <button className="m-24 rounded bg-blue-500 px-8 py-2 text-white transition-transform duration-1000 hover:rotate-12 hover:bg-blue-700">
+        Click me
+      </button>
 
-    <!-- Transform & Transition -->
-    */}
+      <img
+        className="w-48 transition duration-1000 hover:rotate-180 hover:skew-x-12 hover:scale-75"
+        src={img1}
+        alt=""
+      />
+
+      {/* Transform & Transition */}
     </>
   );
 };
 
-//<!-- Transition Property
+//{/* Transition Property
 //  transition-none
 //  transition-property: none;
 //
@@ -54,9 +64,9 @@ export const TransformTransition = () => {
 //  transition-transform	transition-property: transform;
 //  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 //  transition-duration: 150ms;
-//-->
+//*/}
 //
-//<!--
+//{/*
 //  Duration
 //  duration-75	    transition-duration: 75ms;
 //  duration-100	  transition-duration: 100ms;
@@ -66,16 +76,16 @@ export const TransformTransition = () => {
 //  duration-500	  transition-duration: 500ms;
 //  duration-700	  transition-duration: 700ms;
 //  duration-1000	  transition-duration: 1000ms;
-// -->
+// */}
 //
-//<!-- Timing Function
+//{/* Timing Function
 //  ease-linear	      transition-timing-function: linear;
 //  ease-in	          transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 //  ease-out	        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 //  ease-in-out	      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//-->
+//*/}
 //
-//<!-- Delay
+//{/* Delay
 //  delay-75	  transition-delay: 75ms;
 //  delay-100	  transition-delay: 100ms;
 //  delay-150	  transition-delay: 150ms;
@@ -84,11 +94,11 @@ export const TransformTransition = () => {
 //  delay-500	  transition-delay: 500ms;
 //  delay-700	  transition-delay: 700ms;
 //  delay-1000	transition-delay: 1000ms;
-//-->
+//*/}
 //
-//<!-- TRANSFORMS -->
+//{/* TRANSFORMS */}
 //
-//<!-- Scale
+//{/* Scale
 //  scale-0	    transform: scale(0);
 //  scale-x-0	  transform: scaleX(0);
 //  scale-y-0	  transform: scaleY(0);
@@ -119,9 +129,9 @@ export const TransformTransition = () => {
 //  scale-150	  transform: scale(1.5);
 //  scale-x-150	transform: scaleX(1.5);
 //  scale-y-150	transform: scaleY(1.5);
-//-->
+//*/}
 //
-//<!-- Rotate
+//{/* Rotate
 //  rotate-0	  transform: rotate(0deg);
 //  rotate-1	  transform: rotate(1deg);
 //  rotate-2	  transform: rotate(2deg);
@@ -131,9 +141,9 @@ export const TransformTransition = () => {
 //  rotate-45	  transform: rotate(45deg);
 //  rotate-90	  transform: rotate(90deg);
 //  rotate-180	transform: rotate(180deg);
-//-->
+//*/}
 //
-//<!-- Translate
+//{/* Translate
 //  translate-x-0	transform: translateX(0px);
 //  translate-y-0	transform: translateY(0px);
 //  translate-x-px	transform: translateX(1px);
@@ -218,9 +228,9 @@ export const TransformTransition = () => {
 //  translate-y-2/4	transform: translateY(50%);
 //  translate-y-3/4	transform: translateY(75%);
 //  translate-y-full	transform: translateY(100%);
-//-->
+//*/}
 //
-//<!-- Skew
+//{/* Skew
 //  skew-x-0	transform: skewX(0deg);
 //  skew-y-0	transform: skewY(0deg);
 //  skew-x-1	transform: skewX(1deg);
@@ -233,9 +243,9 @@ export const TransformTransition = () => {
 //  skew-y-6	transform: skewY(6deg);
 //  skew-x-12	transform: skewX(12deg);
 //  skew-y-12	transform: skewY(12deg);
-//-->
+//*/}
 //
-//<!-- Transform Origin
+//{/* Transform Origin
 //  origin-center	transform-origin: center;
 //  origin-top	transform-origin: top;
 //  origin-top-right	transform-origin: top right;
@@ -245,5 +255,5 @@ export const TransformTransition = () => {
 //  origin-bottom-left	transform-origin: bottom left;
 //  origin-left	transform-origin: left;
 //  origin-top-left	transform-origin: top left;
-//-->
+//*/}
 //

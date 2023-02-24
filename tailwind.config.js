@@ -12,8 +12,6 @@ module.exports = {
         montserrat: ['Montserrat'],
       },
     },
-    keyframes: {},
-    animation: {},
   },
   variants: {
     extend: {},

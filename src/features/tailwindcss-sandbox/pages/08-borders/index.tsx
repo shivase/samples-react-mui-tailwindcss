@@ -1,17 +1,75 @@
 export const Borders = () => {
   return (
-    <></>
-    /*
-<!-- Border Width & Colors -->
+    <>
+      {/* Border Width & Colors */}
+      <div className="m-3 w-96 border p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
 
-<!-- Border Radius -->
+      <div className="m-3 w-96 border-2 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
 
-<!-- Outline -->
+      <div className="m-3 w-96 border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
 
-*/
+      <div className="m-3 w-96 border-4 border-red-500 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 border-x-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 border-y-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 border-b-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 border-r-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 border-t-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      {/* Border Radius */}
+
+      <div className="m-3 w-96 rounded border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 rounded-lg border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 rounded-xl border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 rounded-2xl border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 rounded-full border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      <div className="m-3 w-96 rounded-r-2xl border-4 p-5">
+        Ad ut ipsum cillum proident consectetur duis ex enim pariatur excepteur excepteur
+      </div>
+
+      {/* Outline */}
+      <button className="outline outline-4 outline-offset-2 outline-red-500">Click</button>
+    </>
   );
 }; //
-//<!-- Border Widths
+//{/* Border Widths
 //      border-0	    border-width: 0px;
 //      border-2	    border-width: 2px;
 //      border-4	    border-width: 4px;
@@ -57,9 +115,9 @@ export const Borders = () => {
 //      border-l-4	  border-left-width: 4px;
 //      border-l-8	  border-left-width: 8px;
 //      border-l	    border-left-width: 1px;
-//    -->
+//    */}
 // //
-//<!-- Border Radius
+//{/* Border Radius
 //      rounded-none	    border-radius: 0px;
 //      rounded-sm	      border-radius: 0.125rem; /* 2px */
 //      rounded	          border-radius: 0.25rem; /* 4px */
@@ -69,13 +127,13 @@ export const Borders = () => {
 //      rounded-2xl	      border-radius: 1rem; /* 16px */
 //      rounded-3xl	      border-radius: 1.5rem; /* 24px */
 //      rounded-full	    border-radius: 9999px;
-//     -->
+//     */}
 // //
-//<!-- Outline
+//{/* Outline
 //      outline-0	outline-width: 0px;
 //      outline-1	outline-width: 1px;
 //      outline-2	outline-width: 2px;
 //      outline-4	outline-width: 4px;
 //      outline-8	outline-width: 8px;
-//  -->
+//  */}
 //

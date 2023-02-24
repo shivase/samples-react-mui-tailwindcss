@@ -2,7 +2,7 @@ export const Animation = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-900">
       <svg
-        className="w-48 text-white"
+        className="w-48 animate-spin text-white"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24">
