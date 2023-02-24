@@ -4,7 +4,8 @@ export const Customization = () => {
       window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
     if (document?.querySelector('h1') !== null) {
-      document.querySelector('h1').innerHTML = `Width: ${width}`;
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      document.querySelector('h1')!.innerHTML = `Width: ${width}`;
     }
   };
 
