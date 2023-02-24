@@ -6,6 +6,7 @@ import path from 'path';
 export default defineConfig({
   root: './src',
   publicDir: '../public',
+  base: process.env.GITHUB_PAGES ? 'samples-react-mui-tailwindcss' : './',
   build: {
     sourcemap: true,
     outDir: '../dist',
