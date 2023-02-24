@@ -6,7 +6,7 @@
     "prepare": "husky install",
     "postinstall": "typesync",
     "dev": "vite",
-    "build": "rimraf dist && tsc && vite build",
+    "build": "rimraf dist && tsc && NODE_ENV=production vite build",
     "preview": "vite preview",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,html}'",

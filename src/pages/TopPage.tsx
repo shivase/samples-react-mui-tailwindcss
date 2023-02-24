@@ -15,8 +15,19 @@ export const TopPageApp = () => {
       <Box>
         <Box className="mb-2">Tailwind CSS From Scratch Learn By Building Projects</Box>
         <Box className="flex flex-col gap-y-3">
-          <Button variant="contained" color="primary" component={Link} to="/tailwindcss-sandbox">
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/sandbox">
             TailwindCSS Sandbox
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/mini-projects">
+            Mini Projects
           </Button>
         </Box>
       </Box>
