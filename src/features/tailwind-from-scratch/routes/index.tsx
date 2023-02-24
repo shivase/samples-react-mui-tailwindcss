@@ -3,11 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import { lazyImport } from '@/utils/lazyImport';
 
 const { TailwindcssSandbox } = lazyImport(
-  () => import('../tailwindcss-sandbox'),
+  () => import('../01-tailwindcss-sandbox'),
   'TailwindcssSandbox',
 );
 
-const { MiniProjects } = lazyImport(() => import('../mini-projects'), 'MiniProjects');
+const { MiniProjects } = lazyImport(() => import('../02-mini-projects'), 'MiniProjects');
 
 export const TailwindFromScratch = () => {
   return (
