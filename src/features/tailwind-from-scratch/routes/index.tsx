@@ -8,12 +8,14 @@ const { TailwindcssSandbox } = lazyImport(
 );
 
 const { MiniProjects } = lazyImport(() => import('../02-mini-projects'), 'MiniProjects');
+const { Clipboard } = lazyImport(() => import('../03-clipboard'), 'Clipboard');
 
 export const TailwindFromScratch = () => {
   return (
     <Routes>
       <Route path="sandbox/*" element={<TailwindcssSandbox />} />
       <Route path="mini-projects/*" element={<MiniProjects />} />
+      <Route path="clipboard" element={<Clipboard />} />
     </Routes>
   );
 };

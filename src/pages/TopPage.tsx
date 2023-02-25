@@ -29,6 +29,13 @@ export const TopPageApp = () => {
             to="/tailwindcss-from-scratch/mini-projects">
             Mini Projects
           </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/clipboard">
+            Clipboard Website
+          </Button>
         </Box>
       </Box>
     </Box>
