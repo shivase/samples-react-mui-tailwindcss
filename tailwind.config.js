@@ -11,6 +11,10 @@ module.exports = {
       fontFamily: {
         sans: ['Bai Jamjuree', 'sans-serif'],
         montserrat: ['Montserrat'],
+        alata: ['Alata'],
+      },
+      letterSpacing: {
+        widest: '.3em',
       },
       colors: {
         strongCyan: 'hsl(171, 66%, 44%)',
