@@ -43,6 +43,13 @@ export const TopPageApp = () => {
             to="/tailwindcss-from-scratch/loopstudios">
             Loopstudios Website
           </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/shortly">
+            Shortly Website
+          </Button>
         </Box>
       </Box>
     </Box>
