@@ -11,6 +11,7 @@ specifiers:
   '@mui/material': ^5.11.9
   '@mui/system': ^5.11.9
   '@mui/x-date-pickers': ^5.0.19
+  '@tailwindcss/line-clamp': ^0.4.2
   '@tanstack/react-query': ^4.24.6
   '@types/eslint': ^8.21.1
   '@types/eslint-plugin-prettier': ^3.1.0
@@ -83,6 +84,7 @@ devDependencies:
   '@commitlint/config-conventional': 17.4.4
   '@commitlint/cz-commitlint': 17.4.4_i4x6owxztfhigiiqlxwntt4k24
   '@eslint/eslintrc': 1.4.1
+  '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.2.7
   '@types/eslint': 8.21.1
   '@types/eslint-plugin-prettier': 3.1.0
   '@types/node': 18.14.0
@@ -1292,6 +1294,14 @@ packages:
     resolution: {integrity: sha512-t54ONhl/h75X94SWsHGQ4G/ZrCEguKSRQr7DrjTciJXW0YU1QhlwYeycvK5JgkzlxmvrK7wq1NB/PLtHxoiDcA==}
     engines: {node: '>=14'}
     dev: false
+
+  /@tailwindcss/line-clamp/0.4.2_tailwindcss@3.2.7:
+    resolution: {integrity: sha512-HFzAQuqYCjyy/SX9sLGB1lroPzmcnWv1FHkIpmypte10hptf4oPUfucryMKovZh2u0uiS9U5Ty3GghWfEJGwVw==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: 3.2.7_aesdjsunmf4wiehhujt67my7tu
+    dev: true
 
   /@tanstack/query-core/4.24.6:
     resolution: {integrity: sha512-Tfru6YTDTCpX7dKVwHp/sosw/dNjEdzrncduUjIkQxn7n7u+74HT2ZrGtwwrU6Orws4x7zp3FKRqBPWVVhpx9w==}

@@ -50,6 +50,13 @@ export const TopPageApp = () => {
             to="/tailwindcss-from-scratch/shortly">
             Shortly Website
           </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/testimonial">
+            Testimonial Grid Project
+          </Button>
         </Box>
       </Box>
     </Box>
