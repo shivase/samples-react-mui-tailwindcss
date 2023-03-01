@@ -57,6 +57,13 @@ export const TopPageApp = () => {
             to="/tailwindcss-from-scratch/testimonial">
             Testimonial Grid Project
           </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/fylo">
+            Fylo Website with Color Picker
+          </Button>
         </Box>
       </Box>
     </Box>

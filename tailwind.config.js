@@ -5,11 +5,13 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   content: ['./src/index.html', './src/**/*.{html,js,jsx,ts,tsx}'],
+  darkMode: 'class',
   mode: 'jit',
   theme: {
     extend: {
       fontFamily: {
         sans: ['Bai Jamjuree', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
         montserrat: ['Montserrat'],
         alata: ['Alata'],
       },
@@ -29,6 +31,13 @@ module.exports = {
         darkGrayishBlue: 'hsl(210, 10%, 33%)',
         grayishBlue: 'hsl(201, 11%, 66%)',
         veryDarkBlue: 'hsl(255,11%,22%)',
+        darkBlue: 'hsl(217, 28%, 15%)',
+        darkBlue1: 'hsl(218, 28%, 13%)',
+        darkBlue2: 'hsl(216, 53%, 9%)',
+        darkBlue3: 'hsl(219, 30%, 18%)',
+        accentCyan: 'hsl(176, 68%, 64%)',
+        accentBlue: 'hsl(198,60%, 50%)',
+        lightRed: 'hsl(0,100%, 63%)',
       },
     },
   },
