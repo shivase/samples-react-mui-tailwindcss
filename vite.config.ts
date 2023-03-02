@@ -6,7 +6,7 @@ import path from 'path';
 export default defineConfig({
   root: './src',
   publicDir: '../public',
-  base: process.env.GITHUB_PAGES ? 'samples-react-mui-tailwindcss' : './',
+  base: process.env.GITHUB_PAGES ? 'study-react-samples' : './',
   build: {
     sourcemap: true,
     outDir: '../dist',
@@ -35,4 +35,18 @@ export default defineConfig({
     splitVendorChunkPlugin(),
     process.env.NODE_ENV === 'production' && viteCompression(),
   ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    reporters: 'verbose',
+    setupFiles: ['vitest.setup.ts'],
+    coverage: {
+      provider: 'istanbul',
+      reporter: ['text', 'lcov'],
+      reportsDirectory: '../coverage',
+    },
+    cache: {
+      dir: '../node_modules/.vitest',
+    },
+  },
 });

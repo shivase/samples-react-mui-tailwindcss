@@ -15,6 +15,10 @@ const { TailwindFromScratch } = lazyImport(
   () => import('@/features/tailwind-from-scratch'),
   'TailwindFromScratch',
 );
+const { ReactTheCompleteGuide } = lazyImport(
+  () => import('@/features/react-the-complete-guide'),
+  'ReactTheCompleteGuide',
+);
 
 export const AppRouter = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +26,7 @@ export const AppRouter = createBrowserRouter(
       <Route index element={<TopPageApp />}></Route>
       <Route path="creative" element={<CreativeAgencyApp />}></Route>
       <Route path="tailwindcss-from-scratch/*" element={<TailwindFromScratch />}></Route>
+      <Route path="react-the-complete-guide/*" element={<ReactTheCompleteGuide />}></Route>
       <Route path="*" element={<NotFound />}></Route>
     </Route>,
   ),

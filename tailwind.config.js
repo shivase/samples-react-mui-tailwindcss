@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugins = [require('@tailwindcss/typography'), require('@tailwindcss/line-clamp')];
+if (process.env.NODE_ENV !== 'production') plugins.push(require('tailwindcss-debug-screens'));
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -11,6 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Bai Jamjuree', 'sans-serif'],
+        NotoSansJP: ['Noto Sans JP'],
         opensans: ['Open Sans', 'sans-serif'],
         montserrat: ['Montserrat'],
         alata: ['Alata'],
@@ -43,12 +48,43 @@ module.exports = {
         softBlue: 'hsl(231, 69%, 60%)',
         softRed: 'hsl(0,94%, 66%)',
       },
+      keyframes: {
+        bump: {
+          '0%': { transform: 'scale(1)' },
+          '10%': { transform: 'scale(0.9)' },
+          '30%': { transform: 'scale(1.1)' },
+          '50%': { transform: 'scale(1.15)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        'meals-appear': {
+          from: { opacity: '0', transform: 'translateY(-3rem)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        'slide-down': {
+          from: { opacity: '0', transform: 'translateY(-3rem)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        spinner: {
+          '0%': {
+            transform: 'rotate(0deg)',
+          },
+          '100%': {
+            transform: 'rotate(360deg)',
+          },
+        },
+      },
+      animation: {
+        bump: 'bump 300ms ease-out',
+        'meals-appear': 'meals-appear 1s ease-out forwards',
+        'slide-down': 'slide-down 300ms ease-out forwards',
+        spinner: 'spinner 1.2s linear infinite',
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/line-clamp')],
+  plugins: plugins,
   purge: false,
   important: true,
 };

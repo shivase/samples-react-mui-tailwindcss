@@ -12,4 +12,4 @@ React + Material UI + TailwindCSS
 
 ### [Tailwind CSS From Scratch | Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
 
-React + Tailwindcss
+### [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25601116?start=0#overview)
