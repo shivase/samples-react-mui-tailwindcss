@@ -13,6 +13,7 @@ const { LoopStudios } = lazyImport(() => import('../04-loopstudios'), 'LoopStudi
 const { Shortly } = lazyImport(() => import('../05-shortly'), 'Shortly');
 const { Testimonial } = lazyImport(() => import('../06-testimonial'), 'Testimonial');
 const { Fylo } = lazyImport(() => import('../07-fylo'), 'Fylo');
+const { Bookmark } = lazyImport(() => import('../08-bookmark'), 'Bookmark');
 
 export const TailwindFromScratch = () => {
   return (
@@ -24,6 +25,7 @@ export const TailwindFromScratch = () => {
       <Route path="shortly" element={<Shortly />} />
       <Route path="testimonial" element={<Testimonial />} />
       <Route path="fylo" element={<Fylo />} />
+      <Route path="bookmark" element={<Bookmark />} />
     </Routes>
   );
 };

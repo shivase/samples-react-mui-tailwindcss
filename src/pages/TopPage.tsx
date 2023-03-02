@@ -64,6 +64,13 @@ export const TopPageApp = () => {
             to="/tailwindcss-from-scratch/fylo">
             Fylo Website with Color Picker
           </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            component={Link}
+            to="/tailwindcss-from-scratch/bookmark">
+            Bookmark Manager Website
+          </Button>
         </Box>
       </Box>
     </Box>
