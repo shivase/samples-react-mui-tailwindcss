@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import react from '@vitejs/plugin-react';
 import viteCompression from 'vite-plugin-compression';
 import { defineConfig, splitVendorChunkPlugin } from 'vite';

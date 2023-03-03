@@ -137,3 +137,11 @@ overrides:
         typescript: {}
       react:
         version: detect
+  - files:
+      - '**/__tests__/**/*.+(ts|tsx|js)'
+      - '**/?(*.)+(spec|test).+(ts|tsx|js)'
+    plugins:
+      - jest-extended
+    extends:
+      - plugin:testing-library/react
+      - plugin:jest-dom/recommended
