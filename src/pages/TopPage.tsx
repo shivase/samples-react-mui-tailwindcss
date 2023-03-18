@@ -114,6 +114,14 @@ export const TopPageApp = () => {
           </Button>
         </div>
       </div>
+      <div className="flex flex-col space-y-4">
+        <div className="mb-2 text-center">Firebase Authentication</div>
+        <div className="flex flex-wrap items-center justify-center gap-5">
+          <Button variant="outlined" component={Link} to="/firebase-authentication/basics">
+            Basics
+          </Button>
+        </div>
+      </div>
     </div>
   );
 };
